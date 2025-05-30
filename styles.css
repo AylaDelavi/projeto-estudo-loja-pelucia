@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/boasvindas.css");
+
+:root {
+    --cor-de-fundo: #F0EBE3;
+    --rosa-clarinho: #F7B5CA;
+    --rosa-escuro: #F0A8D0;
+    --rosa-salmao: #FFC6C6;
+    --branco: #F6F5F2;
+    --amarelo-clarinho: #FFEBD4;
+}
+
+body {
+    background: radial-gradient(circle, #ffe4ec 0%, var(--rosa-clarinho) 100%);
+    padding: 0 100px;
+}

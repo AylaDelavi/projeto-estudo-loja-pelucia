@@ -1,0 +1,15 @@
+.encontre-sua-pelucia-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--rosa-clarinho);
+}
+
+.encontre-sua-pelucia__imagem {
+    width: 60%;
+    border-radius: 25px;
+}
+.encontre-sua-pelucia-link__imagem {
+    text-align: center;
+}

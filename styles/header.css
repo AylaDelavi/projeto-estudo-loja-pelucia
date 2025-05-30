@@ -1,0 +1,27 @@
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.cabecalho {
+    background-color: var(--rosa-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0.5rem;
+    gap: 35px;
+}
+
+.cabecalho__icone-link {
+    width: 35px;
+    height: auto;
+}
