@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/boasvindas.css");
+@import url("styles/duplinhas.css");
 
 :root {
     --cor-de-fundo: #F0EBE3;
@@ -12,6 +13,6 @@
 }
 
 body {
-    background: radial-gradient(circle, #ffe4ec 0%, var(--rosa-clarinho) 100%);
+    background-color: var(--rosa-salmao);
     padding: 0 100px;
 }

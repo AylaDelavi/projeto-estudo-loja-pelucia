@@ -1,4 +1,6 @@
-
+.pelucias-do-momento {
+  background-color: var(--cor-de-fundo);
+}
 
 .pelucias-do-momento__container {
   display: flex;
@@ -12,9 +14,8 @@
     font-family: 'Fredoka', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    color: var(--branco);
+    color: var(--rosa-clarinho);
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     padding: 35px;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -28,7 +29,7 @@
 }
 
 .pelucia-card {
-  background-color: var(--branco);
+  background-color: var(--rosa-clarinho);
   border-radius: 25px;
   width: 250px;
   padding: 15px;
@@ -57,21 +58,16 @@
 .pelucia-card__preco {
   font-weight: bold;
   font-size: 20px;
-  color: var(--rosa-escuro);
+  color: var(--branco);
 }
 
-.pelucia-card__carrrinho-btn {
+.pelucia-card__carrinho {
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
 }
 
-.pelucia-card__carrrinho-img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
 
 
 

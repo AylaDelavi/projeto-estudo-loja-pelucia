@@ -8,15 +8,15 @@
 }
 
 .cabecalho {
-    padding: 32px 12.5%;
+    padding: 25px 12.5%;
     background-color: var(--rosa-escuro);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 .cabecalho__logo {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
 }
 
 .cabecalho__logo-imagem {
