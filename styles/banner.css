@@ -7,7 +7,7 @@
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  padding-bottom: 8rem;
+  padding-bottom: 60px;
 }
 
 .pelucias-do-momento__titulo-texto {
@@ -18,20 +18,20 @@
     text-align: center;
     padding: 35px;
     margin-bottom: 40px;
-    margin-top: 40px;
+
 }
 
 .pelucias-do-momento__imagens {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   justify-content: center;
 }
 
 .pelucia-card {
   background-color: var(--rosa-clarinho);
   border-radius: 25px;
-  width: 250px;
+  width: 225px;
   padding: 15px;
   display: flex;
   flex-direction: column;

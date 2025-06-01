@@ -1,0 +1,24 @@
+.entrega-e-parcela__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 11%;
+    background-color: var(--rosa-escuro);
+}
+
+.entrega-e-parcela__imagem {
+    width: 30px;
+}
+
+.entrega-e-parcela__informacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.entrega-e-parcela__texto {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--branco);
+    font-family: 'Baloo 2', cursive;
+}

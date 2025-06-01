@@ -55,13 +55,13 @@
 </section>
 
 <section class="pelucias-do-momento">
-    <div class="pelucias-do-momento__container">
-      <div class="pelucias-do-momento__titulo">
+    <div class="pelucias-do-momento__container">  <!-- pai das duas divs principais (TÍTULO e CARDS). -->
+      <div class="pelucias-do-momento__titulo"> <!-- filho da div container. -->
           <h1 class="pelucias-do-momento__titulo-texto">Pelúcias do momento!</h1>
       </div>
 
-      <div class="pelucias-do-momento__imagens">
-        <div class="pelucia-card">
+      <div class="pelucias-do-momento__imagens"> <!-- filho da div container  e pai das divs pelucia card, é responsável por alinha-las dentro do container pai (se vão ficar em linhas ou em colunas, etc.)-->
+        <div class="pelucia-card"> <!-- filho da div dos cards, responsável por cada card individual, e pelos elementos dentro dos cards. -->
           <img class="pelucia-card__imagem" src="./images/sanrio1_11zon.png" alt="">
           <div class="pelucia-card__info">
             <span class="pelucia-card__preco">R$ 59,99</span>
@@ -171,8 +171,37 @@
 
     </div>
   </div>
-</section>
+</section class="entrega-e-parcela">
 
+  <div class="entrega-e-parcela__container">
+
+    <div class="entrega-e-parcela__informacao">
+      <img class="entrega-e-parcela__imagem" src="./images/cartao-de-credito.png" alt="imagem cartao">
+      <p class="entrega-e-parcela__texto">Parcele em até 6x</p>
+    </div>
+
+    <div class="entrega-e-parcela__informacao">
+      <img class="entrega-e-parcela__imagem" src="./images/caminhao-de-entrega.png" alt="imagem caminhao">
+      <p class="entrega-e-parcela__texto">Frete grátis acima de R$199</p>
+    </div>
+
+    <div class="entrega-e-parcela__informacao">
+      <img class="entrega-e-parcela__imagem" src="./images/ursinho-de-goma.png" alt="imagem ursinho">
+      <p class="entrega-e-parcela__texto">Pelúcias lindas</p>
+    </div>
+
+    <div class="entrega-e-parcela__informacao">
+      <img class="entrega-e-parcela__imagem" src="./images/caixa-de-entrega.png" alt="imagem cubo">
+      <p class="entrega-e-parcela__texto">Etrega em todo Brasil</p>
+    </div>
+
+  </div>
+
+<section>
+
+
+
+</section>
 </main>
 <footer>
 
