@@ -1,0 +1,32 @@
+.brindes {
+    background-color: var(--cor-de-fundo);
+}
+
+.brindes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 80px;
+}
+
+.brinde-chaveiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.brinde-imagem__pelucias {
+    width: 900px; 
+    height: auto; 
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brinde-imagem__chaveiros {
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
