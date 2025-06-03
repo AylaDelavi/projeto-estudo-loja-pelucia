@@ -5,6 +5,7 @@
 @import url("styles/entrega.css");
 @import url("styles/brindes.css");
 @import url("styles/maisvendidos.css");
+@import url("styles/newsletter.css");
 
 :root {
     --cor-de-fundo: #F0EBE3;
