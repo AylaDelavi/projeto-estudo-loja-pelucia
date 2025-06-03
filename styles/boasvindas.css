@@ -1,20 +1,54 @@
 .encontre-sua-pelucia {
-    width: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .encontre-sua-pelucia-container {
-    padding-top: 55px;
-    padding-bottom: 55px;
-    display: flex;
-    justify-content: center;
-    background-color: var(--rosa-clarinho);
+  padding: 55px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--rosa-clarinho);
 }
 
-.encontre-sua-pelucia__imagem {
-    width: 650px;
-    border-radius: 25px;
+.carrossel {
+  position: relative;
+  width: 700px;
+  height: 400px;
 }
-.encontre-sua-pelucia-link__imagem {
-    text-align: center;
-    width: 100%;
+
+.carrossel-imagem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.6;
+  filter: blur(3px);
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.carrossel-imagem img {
+  width: 600px;
+  border-radius: 25px;
+}
+
+/* Imagem central em destaque */
+.carrossel-imagem.destaque {
+  transform: translate(-50%, -50%) scale(1);
+  filter: none;
+  opacity: 1;
+  z-index: 3;
+}
+
+/* Deslocamento lateral esquerdo */
+.carrossel-imagem.esquerda {
+  transform: translate(-90%, -50%) scale(0.8);
+  z-index: 2;
+}
+
+/* Deslocamento lateral direito */
+.carrossel-imagem.direita {
+  transform: translate(-10%, -50%) scale(0.8);
+  z-index: 2;
 }
