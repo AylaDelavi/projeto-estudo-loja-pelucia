@@ -45,6 +45,11 @@
     cursor: pointer;
 }
 
+.newsletter-email__botao:hover {
+    background-color: var(--rosa-clarinho);
+    color: var(--branco);
+}
+
 @media (max-width: 480px) {
     .newsletter-container {
         flex-direction: column;
