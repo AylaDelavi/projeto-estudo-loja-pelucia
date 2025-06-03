@@ -30,6 +30,11 @@
     font-family: 'Baloo 2', cursive;
 }
 
+.cabecalho__nav_list_link:hover {
+    color: var(--amarelo-clarinho);
+    font-size: 24px;
+}
+
 .cabecalho__nav_list_item-input {
     position: relative;
 

@@ -19,6 +19,16 @@
     gap: 40px;
 }
 
+.brinde-chaveiros:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.brinde-pelucias:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .brinde-imagem__pelucias {
     width: 900px; 
     height: auto; 
