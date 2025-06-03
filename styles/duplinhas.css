@@ -46,22 +46,28 @@
 }
 
 .kit-coelho__card-info {
-    margin-top: 70px;
+    margin-top: 35px;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
 .kit-coelho__preco {
-    font-weight: bold;
-  font-size: 20px;
-  color: var(--branco);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    color: var(--branco);
 }
 
-.kit-coelho__carrinho {
-    background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
+.kit-coelho__botao {
+    background-color: var(--amarelo-clarinho);
+    border: none;
+    border-radius: 16px;
+    padding: 10px 32px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
 }
