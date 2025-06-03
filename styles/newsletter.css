@@ -44,3 +44,24 @@
     font-family: 'Baloo 2', cursive;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .newsletter-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 5%;
+    }
+
+    .newsletter-email__input {
+        width: 100%;
+    }
+
+    .newsletter-subtitulo__texto {
+        font-size: 30px;
+    }
+
+    .newsletter-email__botao {
+        width: 100%;
+        text-align: center;
+    }
+}

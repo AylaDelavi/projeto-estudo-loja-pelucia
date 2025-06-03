@@ -22,3 +22,17 @@
     color: var(--branco);
     font-family: 'Baloo 2', cursive;
 }
+
+@media (max-width: 480px) {
+
+    .entrega-e-parcela__texto {
+        font-size: 14px;
+    }
+    
+    .entrega-e-parcela__container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 5%;
+        gap: 20px;
+    }
+}

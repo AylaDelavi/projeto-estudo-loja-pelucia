@@ -32,3 +32,15 @@
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 480px) {
+    .brinde-imagem__pelucias {
+        width: 100%;
+        height: auto;
+    }
+
+    .brinde-imagem__chaveiros {
+        width: 80%;
+        height: auto;
+    }
+}

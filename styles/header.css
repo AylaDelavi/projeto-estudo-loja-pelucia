@@ -61,3 +61,39 @@
     width: 35px;
     height: 35px;
 }
+
+@media (max-width: 480px) {
+  .cabecalho__nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 0;
+  }
+
+  /* Esconde todos os itens do menu */
+  .cabecalho__nav_list_item {
+    display: none;
+  }
+
+  /* Mostra somente logo (1º item) */
+  .cabecalho__nav_list li:first-child {
+    display: block;
+  }
+
+  /* Mostra perfil e carrinho (últimos dois itens) */
+  .cabecalho__nav_list li:nth-last-child(1),
+  .cabecalho__nav_list li:nth-last-child(2) {
+    display: block;
+  }
+
+  /* Alinhar os ícones no canto direito */
+  .cabecalho__nav_list li:nth-last-child(1),
+  .cabecalho__nav_list li:nth-last-child(2) {
+    margin-left: 12px;
+  }
+
+  .cabecalho {
+    padding: 20px;
+  }
+}
