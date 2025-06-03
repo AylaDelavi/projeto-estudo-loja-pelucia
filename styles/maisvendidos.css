@@ -37,6 +37,7 @@
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .mais-vendidos__card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
@@ -74,4 +75,9 @@
     font-weight: 400;
     font-family: 'Fredoka', sans-serif;
     cursor: pointer;
+}
+
+.mais-vendidos__botao:hover {
+    background-color: var(--amarelo-escuro);
+    color: var(--branco);
 }
