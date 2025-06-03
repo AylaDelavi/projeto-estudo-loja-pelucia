@@ -1,0 +1,46 @@
+.rodape {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.rodape-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rodape-colunas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rodape-informacoes {
+  flex: 1 1 22%; 
+  min-width: 200px;
+}
+
+.rodape-informacoes__titulo {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.rodape-informacoes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rodape-informacoes li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.rodape-feito-com-amor {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
