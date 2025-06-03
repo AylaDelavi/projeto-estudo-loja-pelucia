@@ -10,8 +10,6 @@
 .cabecalho {
     padding: 25px 12.5%;
     background-color: var(--rosa-escuro);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 .cabecalho__logo {
@@ -20,11 +18,11 @@
 }
 
 .cabecalho__logo-imagem {
-    width: 150%;
+    width: 100%
 }
 
 .cabecalho__nav_list_link {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 24px;
     text-decoration: none;
@@ -57,4 +55,9 @@
     transform: translateY(-50%);
     width: 14px;
     height: 14px;
+}
+
+.cabecalho__nav_list_img {
+    width: 35px;
+    height: 35px;
 }
