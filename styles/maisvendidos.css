@@ -1,0 +1,67 @@
+.mais-vendidos {
+    background-color: var(--cor-de-fundo);
+}
+
+.mais-vendidos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.mais-vendidos__titulo-texto {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--rosa-clarinho);
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+
+.mais-vendidos__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.mais-vendidos__card {
+    background-color: var(--rosa-clarinho);
+    border-radius: 25px;
+    width: 225px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mais-vendidos__card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.mais-vendidos__card-info {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mais-vendidos__preco {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.mais-vendidos__carrinho {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}

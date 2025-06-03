@@ -4,6 +4,7 @@
 @import url("styles/duplinhas.css");
 @import url("styles/entrega.css");
 @import url("styles/brindes.css");
+@import url("styles/maisvendidos.css");
 
 :root {
     --cor-de-fundo: #F0EBE3;
